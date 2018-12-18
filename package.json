@@ -1,0 +1,65 @@
+{
+  "name": "erp",
+  "version": "1.0.0",
+  "description": "Criando ERP com Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main",
+    "reload": "live-reload ./app --port 35729",
+    "bower": "bower install",
+    "gulp": "gulp",
+    "sass": "gulp compile-sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreSousa/erpelectron.git"
+  },
+  "keywords": [
+    "electron",
+    "express",
+    "electron-express",
+    "electron",
+    "express"
+  ],
+  "author": "Alexandre Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreSousa/erpelectron/issues"
+  },
+  "homepage": "https://github.com/AlexandreSousa/erpelectron#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "cipher": "0.0.0",
+    "connect-flash": "^0.1.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "currency-formatter": "^1.3.1",
+    "ejs": "^2.5.7",
+    "electron-log": "^1.3.0",
+    "electron-prebuilt": "^1.4.13",
+    "express": "^4.14.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "node-datetime": "^1.0.0",
+    "nodemon": "^1.17.4",
+    "sqlite-sync": "^0.3.5",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "bower-webpack-plugin": "^0.1.9",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webpack": "^1.5.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "live-reload": "^1.1.0",
+    "webpack": "^1.13.1"
+  }
+}
